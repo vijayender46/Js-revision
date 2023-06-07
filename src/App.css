@@ -1,3 +1,4 @@
+* {box-sizing:border-box;}
 .App {
   text-align: center;
 }
@@ -35,4 +36,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.dayBlock {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  text-align: left;
+  padding: 0px 100px;
+  
+}
+.block {
+  float: left;
+  width: 100%;
+  padding:30px;
+}
+
+.block p, .block li {
+  font-weight: light;
+  color:#666;
+  line-height:24px;
+}
+
+.block p strong, .block li strong{
+  color:#444;
 }
