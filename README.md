@@ -1,5 +1,7 @@
-JavaScript React.js Learning Project
+/** JavaScript React.js Learning Project
+
 Welcome to the JavaScript React.js Learning Project! This project is designed to help beginners and intermediate developers learn and revise JavaScript fundamentals while working with React.js. Each day, you'll find a set of curated materials, along with examples, to guide your learning journey.
+
 
 Project Structure
 Each day, a new topic will be introduced along with relevant learning materials.
