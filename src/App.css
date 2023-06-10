@@ -14,19 +14,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+.layout-container {
+  display: block;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding:0px 30px;
 }
 
 @keyframes App-logo-spin {
@@ -38,19 +30,22 @@
   }
 }
 
+.layout-container header{
+  text-align: center;
+  padding:50px 0;
+}
 
 .dayBlock {
   float: left;
   width: 100%;
   margin-top: 50px;
   text-align: left;
-  padding: 0px 100px;
   
 }
 .block {
   float: left;
   width: 100%;
-  padding:30px;
+  padding:30px 0;
 }
 
 .block p, .block li {
@@ -61,4 +56,29 @@
 
 .block p strong, .block li strong{
   color:#444;
+}
+
+.js-navbar {display: flex; align-items: center; width: 100%; background-color: #444;}
+.js-navbar ul nav{display: flex;}
+.js-navbar ul {
+  display: flex;
+}
+.js-navbar ul, .js-navbar ul li {
+  list-style-type: none;
+  color: #ccc;
+}
+.js-navbar ul li a {
+  color:#ccc;
+  padding:10px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.js-navbar ul li + li {
+  padding-left:20px;
+}
+
+.js-navbar ul li a.active {
+  font-weight:bold;
+  color:#fff;
 }

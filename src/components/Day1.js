@@ -189,20 +189,6 @@ application development, game development, and even mobile app development.</p>
             before they are declared.</i> </h4>        
 
         </div> {/** Block Ends */}
-
-        <div className='block'>
-        <h2>4) What is Await in javascript?</h2>
-        <p>await keyword is used in an async function to pause the execution of the function until a Promise is fulfilled or rejected. 
-            It can only be used inside an async function.</p>
-        <p>When await is used before a Promise, it suspends the execution of the async function and waits for the Promise to settle. If the Promise is fulfilled, the value returned by the await expression is the fulfilled value of the Promise. If the Promise is rejected, an error is thrown.
-<br />
-The await keyword is often used in conjunction with asynchronous operations such as 
-fetching data from an API, making network requests, or reading and writing files asynchronously.
-
-</p>
-          
-
-        </div> {/** Block Ends */}
         
     </div>
   )
